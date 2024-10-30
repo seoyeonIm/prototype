@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gephi 그래프</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+
+        iframe {
+            border: 1px solid #ddd;
+            margin: 20px 0;
+        }
+
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <script>
+        // 페이지 새로 고침 함수
+        function reload() {
+            window.location.reload();
+        }
+    </script>
+</head>
+<body>
+
+    <h1>Gephi로 만든 그래프</h1>
+
+    <!-- Gephi 그래프를 삽입할 iframe -->
+    <iframe width="800" height="720" src="https://seoyeonIm.github.io/prototype/network/index.html" frameborder="0" allowfullscreen></iframe>
+    
+    <br>
+
+    <!-- 버튼들 -->
+    <button onclick="reload();">Gephi 새로 고침</button>
+    <button onclick="location.href='https://seoyeonIm.github.io/prototype/network/index.html'">큰 화면으로 보기</button>
+
+</body>
+</html>
