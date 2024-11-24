@@ -48,6 +48,14 @@ html,body {
 	user-select: none;
 }
 
+.sigma-label {
+	display: block;
+	color: #000;
+	font-size:12px;
+	font-weight: normal;
+	text-align:center;
+}
+
 canvas#sigma_bg_1 {
 	display: none;
 }
