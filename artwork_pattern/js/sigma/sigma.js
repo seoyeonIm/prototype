@@ -4,6 +4,12 @@ var sigma = {
     classes: {},
     instances: {}
 };
+sigmaInstance.settings({
+	drawLabels: true,
+	labelThreshold: 0,
+	defaultLabelSize: 12,
+	defaultLabelColor: '#000',
+});
 (function () {
     Array.prototype.some || (Array.prototype.some = function (g, n) {
         var i = this.length;
