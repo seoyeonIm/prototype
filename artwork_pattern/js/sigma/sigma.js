@@ -917,7 +917,7 @@ sigma.classes.EventDispatcher = function () {
             auto: !0,
             drawNodes: 2,
             drawEdges: 1,
-            drawLabels: 2,
+            drawLabels: 1,
             drawBG: 2,
             lastNodes: 2,
             lastEdges: 0,
@@ -1389,4 +1389,5 @@ sigma.classes.EventDispatcher = function () {
         return "0123456789ABCDEF".charAt((b - b % 16) / 16) + "0123456789ABCDEF".charAt(b % 16)
     };
     sigma.publicPrototype = s.prototype
+	sigma.pulicPrototype.drawingProperties({drawLebels;1});
 })();
