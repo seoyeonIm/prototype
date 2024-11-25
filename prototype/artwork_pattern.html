@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>작품 내 문양 현황</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'NanumSquare Neo', sans-serif;
+            background-color: #DCD6B7;
+        }
+        .container {
+            width: 1440px;
+            height: 1024px;
+            position: relative;
+            background: #DCD6B7;
+            margin: 0 auto;
+        }
+        .circle {
+            width: 396px;
+            height: 396px;
+            position: absolute;
+            background: #8FBFC9;
+            border-radius: 9999px;
+            left: -83px;
+            top: 45px;
+        }
+        .title {
+            position: absolute;
+            left: 149px;
+            top: 114px;
+            color: black;
+            font-size: 24px;
+            font-weight: 700;
+            word-wrap: break-word;
+        }
+        .left-box {
+            width: 559.34px;
+            height: 803px;
+            position: absolute;
+            left: 149px;
+            top: 156px;
+            background: #D9D9D9;
+        }
+        .left-box-text {
+            width: 142.09px;
+            height: 21px;
+            position: absolute;
+            left: 208.18px;
+            top: 391px;
+            color: black;
+            font-size: 15px;
+            font-weight: 700;
+            word-wrap: break-word;
+        }
+        .right-box {
+            width: 507.8px;
+            height: 370px;
+            position: absolute;
+            left: 802px;
+        }
+        .right-box-top {
+            top: 156px;
+            background: #D9D9D9;
+        }
+        .right-box-bottom {
+            top: 589px;
+            background: #D9D9D9;
+        }
+        .right-box-top-text {
+            width: 165px;
+            height: 5px;
+            position: absolute;
+            left: 189px;
+            top: 185px;
+            color: black;
+            font-size: 15px;
+            font-weight: 700;
+            word-wrap: break-word;
+        }
+        .right-box-bottom-text {
+            width: 165px;
+            height: 5px;
+            position: absolute;
+            left: 189px;
+            top: 185px;
+            color: black;
+            font-size: 15px;
+            font-weight: 700;
+            word-wrap: break-word;
+        }
+        /* 새로 추가한 스타일 */
+        .iframe-container {
+            width: 800px;
+            height: 600px;
+            position: absolute;
+            left: 320px; /* 화면 중앙으로 조정 */
+            top: 300px; /* 적절히 조정 */
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="circle"></div>
+    
+    <div class="title">작품 내 문양 현황</div>
+    
+    <div class="left-box"></div>
+    <div class="left-box-text">문양 워드클라우드</div>
+    
+    <div class="right-box right-box-top">
+        <div class="right-box-top-text">같이 그려진 문양 순위</div>
+    </div>
+    
+    <div class="right-box right-box-bottom">
+        <div class="right-box-bottom-text">문양 - 의미 네트워크</div>
+    </div>
+    
+    <!-- Retina 그래프 추가 -->
+    <div class="iframe-container">
+        <iframe
+            width="800"
+            height="600"
+            src="https://ouestware.gitlab.io/retina/beta/#/embed/?url=https%3A%2F%2Fgist.githubusercontent.com%2FseoyeonIm%2F18f3d1ecbaec24bbf77db3082c1188a5%2Fraw%2F8d9a2a3481fabc7f701236cdbf128b7d878738f3%2Fnetwork-eafe68c3-c8f.gexf&nr=1.254&lt=10&ls=5&le=27"
+            frameBorder="0"
+            title="Retina"
+            allowFullScreen>
+        </iframe>
+    </div>
+</div>
+
+</body>
+</html>
